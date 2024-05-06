@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    font-family: Arial;
+}
+.section-1 {
+background-color: rgb(71, 31, 241);
+display: flex;
+flex-direction: row;
+color: white;
+align-items: center;
+}
+input[type='button'] {
+    padding: 25px 10px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 30px;
+    color: white;
+    background: linear-gradient(90deg, #fdc13f 0%, #b66407 85%); 
+}
+a:visited {
+    color: white;
+
+}
+.headline-1 {
+    font-size: 40px;
+}
+.section-2 {
+background-color: rgb(71, 31, 241);
+color:white;
+display: flex;
+}
+.section-3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-basis: 400px;
+}
+.section-4 {
+    color: white;
+    text-align: left;
+    flex-basis: 500px;
+    align-items: flex-end;
+}
+.container1 {
+    background-color:rgb(71, 31, 241);
+    display: flex;
+    flex-shrink: 10;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.headline-2 {
+    font-size: 20px;
+}
